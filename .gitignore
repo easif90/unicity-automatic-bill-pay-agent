@@ -1,0 +1,8 @@
+.env
+wallet-data/
+tokens-data/
+mnemonic-backup.txt
+payment-history.jsonl
+node_modules/
+dist/
+*.log
