@@ -150,4 +150,4 @@ A practical demonstration of **Autonomous Economic Agents** on Unicity Network.
 
 ---
 
-**Made with ❤️ by aShuvo**
+**Made with ❤️ by Easif**
