@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  bill-pay-agent:
+    build: .
+    restart: always
+    env_file:
+      - .env
+    volumes:
+      - ./wallet-data:/app/wallet-data
+      - ./tokens-data:/app/tokens-data
+      - ./payment-history.jsonl:/app/payment-history.jsonl
+      - ./budget.json:/app/budget.json

@@ -1,0 +1,24 @@
+{
+  "name": "bill-pay-agent",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "ts-node src/agent.ts",
+    "build": "tsc",
+    "start": "node dist/agent.js"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.6",
+    "@unicitylabs/sphere-sdk": "latest",
+    "dotenv": "^16.4.5",
+    "express": "^5.2.1",
+    "node-telegram-bot-api": "^1.1.2",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/ws": "^8.5.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.0"
+  }
+}
